@@ -3,6 +3,10 @@ What if we could make a game that simulate physically the human activity on Eart
 
 ## Install the ARPS model
 The core of the game will be based on atmospherical simulations
-To install the arps model you must:
-.... I need to finish the tutorial
+After unpacking arps5.2.12.tar, create the executable following these command:
+cd arps5.2.12
+./makearps -io nohdf arps
+./makearps -io nohdf arps_mpi
+
+
 
